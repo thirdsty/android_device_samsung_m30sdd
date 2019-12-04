@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audio_effects_conf version="2.0" xmlns="http://schemas.android.com/audio/audio_effects_conf/v2_0">
+
+    <libraries>
+        <library name="soundalive_sec" path="libaudiosaplus_sec.so"/>
+        <library name="soundbooster_plus" path="libsamsungSoundbooster_plus.so"/>
+        <library name="tdm" path="libsamsungSoundbooster_tdm.so"/>
+    </libraries>
+
+    <effects>
+        <effect name="soundalive" library="soundalive_sec" uuid="cf65eb39-ce2f-48a8-a903-ceb818c06745"/>
+        <effect name="soundbooster_plus" library="soundbooster_plus" uuid="50de45f0-5d4c-11e5-a837-0800200c9a66"/>
+        <effect name="tdm" library="tdm" uuid="beb1d058-916a-4adf-9cfe-54ee5ba8c4a5"/>
+    </effects>
+</audio_effects_conf>
