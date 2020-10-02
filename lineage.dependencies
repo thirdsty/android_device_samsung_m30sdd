@@ -1,0 +1,8 @@
+[
+    {
+        "repository": "thirdsty/android_device_samsung_universal9611-common",
+        "target_path": "device/samsung/universal9611-common",
+        "remote": "github",
+        "revision": "lineage-17.1"
+    }
+]
