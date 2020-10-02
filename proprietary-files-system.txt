@@ -1,2 +1,0 @@
-etc/nfcee_access.xml
-lib64/libaptX_encoder.so
