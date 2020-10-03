@@ -21,5 +21,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Inherit common device configuration
 $(call inherit-product, device/samsung/universal9611-common/universal9611-common.mk)
 
+# Device product elements
+include $(LOCAL_PATH)/product/*.mk
+
 # Inherit vendor
 $(call inherit-product, vendor/samsung/m30sser/m30sser-vendor.mk)
